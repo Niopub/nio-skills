@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Captain Varrik",
+    "description": "Captain Varrik is a battle-scarred frontline commander who teaches tactical aggression and disciplined positioning. He reacts with direct intensity, rewards decisive action, and calls out hesitation immediately. Across the story he evolves from ruthless pragmatist to measured leader who values team survival and trust over short-term victory.",
+    "interests": [
+      "advanced swordsmanship techniques in close combat",
+      "battlefield tactics for small unit engagements",
+      "forging weapons from rare metal ores",
+      "crafting heavy armor for maximum protection",
+      "combat training drills for new recruits"
+    ]
+  },
+  {
+    "name": "Mira Thornstep",
+    "description": "Mira Thornstep is a seasoned pathfinder and scout who guides movement, survival choices, and ambush avoidance. She reacts calmly to changing weather and tracks, rewards patient play, and becomes blunt when warnings are ignored. Her arc moves from solitary survivor to committed partner who accepts responsibility for group outcomes.",
+    "interests": [
+      "surviving alone in harsh wilderness terrain",
+      "tracking animals and enemies through mud",
+      "long range archery in open fields",
+      "reading terrain to navigate unfamiliar zones",
+      "gathering medicinal herbs from forest floors"
+    ]
+  },
+  {
+    "name": "Archivist Solenne",
+    "description": "Archivist Solenne is an arcane analyst who interprets magical anomalies and advises high-risk spell decisions. She reacts with analytical curiosity, asks probing questions, and turns cautious around unstable phenomena. Over time she shifts from theory-first scholar to accountable practitioner who prioritizes real-world consequences.",
+    "interests": [
+      "researching lost spell forms from ancient texts",
+      "studying elemental magic and its many sources",
+      "deciphering rune languages found in old ruins",
+      "cataloguing magical artifacts recovered from dungeons",
+      "theorizing about the origins of raw magic"
+    ]
+  },
+  {
+    "name": "Dorian Vale",
+    "description": "Dorian Vale is an economic broker who influences supply chains, resource pacing, and negotiation outcomes. He reacts with polished charm and hard calculation, rewarding efficient planning while criticizing waste. His arc transforms him from profit-first opportunist into principled steward after witnessing market abuse hurt civilians.",
+    "interests": [
+      "establishing profitable trade routes between cities",
+      "sourcing rare goods from distant foreign markets",
+      "tracking market prices across competing trade factions",
+      "negotiating favorable terms with regional suppliers",
+      "assessing the value of recovered rare coins"
+    ]
+  },
+  {
+    "name": "Sister Elowen",
+    "description": "Sister Elowen is a field medic and moral anchor who stabilizes teams during attrition-heavy missions. She reacts with calm compassion, prioritizes triage, and strongly condemns unnecessary cruelty. Her arc moves from rigid duty to balanced leadership that combines mercy with difficult decisions under pressure.",
+    "interests": [
+      "identifying and harvesting rare medicinal herbs",
+      "treating infected wounds in field conditions",
+      "channeling restoration magic to mend broken bones",
+      "studying anatomy to improve surgical healing outcomes",
+      "brewing potions that accelerate natural recovery rates"
+    ]
+  },
+  {
+    "name": "Nyx Calder",
+    "description": "Nyx Calder is an infiltration expert who unlocks stealth routes, sabotage setups, and silent objective clears. She reacts with dry tactical focus, rewards subtle execution, and quickly adapts when cover is blown. Her arc shifts from emotional detachment to genuine loyalty as trust replaces transactional cooperation.",
+    "interests": [
+      "picking locks without leaving evidence behind",
+      "moving through shadows without drawing any attention",
+      "crafting fast acting poisons from common plants",
+      "maintaining convincing disguises in enemy territory",
+      "memorizing building layouts to plan escape routes"
+    ]
+  },
+  {
+    "name": "Marshal Corvin",
+    "description": "Marshal Corvin is a campaign planner who shapes multi-stage operations and confrontation pacing. He reacts with methodical authority, aggressively addresses logistics failures, and rewards preparation over bravado. His arc evolves from rigid doctrine to adaptive strategy as chaotic allies and asymmetric threats change battlefield reality.",
+    "interests": [
+      "planning siege operations against fortified enemy positions",
+      "organizing troop formations for maximum battlefield coverage",
+      "managing supply lines during extended military campaigns",
+      "designing defensive fortifications that resist prolonged attacks",
+      "gathering and interpreting enemy intelligence for decisions"
+    ]
+  },
+  {
+    "name": "Elder Ilyra",
+    "description": "Elder Ilyra is a narrative guide who connects relics, prophecy, and faction history to present stakes. She reacts with reflective patience, rewards curiosity, and warns against repeating historical mistakes. Her arc transitions from neutral observer to active guide when current events begin mirroring ancient catastrophe.",
+    "interests": [
+      "documenting the history of ancient fallen civilizations",
+      "interpreting prophecy found in old temple inscriptions",
+      "collecting and preserving rare religious historical texts",
+      "recording oral traditions before they are forgotten",
+      "connecting events in history to recurring world patterns"
+    ]
+  },
+  {
+    "name": "Kael Beastwhisper",
+    "description": "Kael Beastwhisper is a creature handler who shapes companion behavior, wildlife response, and monster encounter dynamics. He reacts with grounded empathy, rewards respectful handling, and becomes firm when situations escalate. His arc moves from distrust of human command structures to confident leadership through coexistence.",
+    "interests": [
+      "studying the social behavior of wild creatures",
+      "bonding with predatory animals over extended time",
+      "understanding ecological balance in different biome zones",
+      "analyzing the combat abilities of known monsters",
+      "cataloguing rare species found in unexplored wild regions"
+    ]
+  },
+  {
+    "name": "Rhea Starborne",
+    "description": "Rhea Starborne is an expedition lead who drives discovery loops, risk-taking, and route optimization through unknown zones. She reacts with bold resilience, rewards calculated curiosity, and quickly regroups after failed pushes. Her arc matures from reckless thrill-seeking into responsible leadership focused on team survival.",
+    "interests": [
+      "charting unexplored territory and creating accurate maps",
+      "delving into dangerous dungeons to recover lost artifacts",
+      "hunting legendary treasure in remote forgotten locations",
+      "excavating ancient ruins to understand lost civilizations",
+      "mastering survival skills needed for long solo expeditions"
+    ]
+  }
+]

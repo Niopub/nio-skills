@@ -1,0 +1,67 @@
+# NPC Integration Sample
+
+Sample integration for the [Niopub](https://niopub.com) Simulation API — simulations, NPCs, players, and stream events.
+
+## Setup
+
+```bash
+npm install
+cp .env.example .env
+# Edit .env with your API keys from niopub.com
+```
+
+## Flow order
+
+1. Simulation operations (`simulation.ts`)
+2. NPC operations (`npc.ts`)
+3. Player operations (`player.ts`)
+4. Stream event operations (`event.ts`)
+
+## Prerequisites
+
+- `.env` with:
+  - `BASE_URL`
+  - `PRODUCT`
+  - `API_KEY` (simulation + npc + player list/get/delete)
+  - `DISTR_KEY` (player create + stream event write)
+  - Optional: `SIM_ID`, `NPC_NAME`, `NPC_DESCRIPTION`, `PLAYER_EXPIRE_MIN`
+- `BASE_URL` defaults to `https://n10s.net` if unset
+
+## Quick examples
+
+```bash
+# 1) simulation
+npx tsx simulation.ts create "My Game"
+npx tsx simulation.ts list
+npx tsx simulation.ts get si123...
+
+# 2) npc
+npx tsx npc.ts create si123...                    # lists available preset profiles
+npx tsx npc.ts create si123... combat_specialist  # create using one preset
+npx tsx npc.ts list si123...
+npx tsx npc.ts get npc123...
+npx tsx npc.ts delete npc123...
+
+# 3) player
+npx tsx player.ts create si123... 5
+npx tsx player.ts list si123...
+npx tsx player.ts get pl123... si123...
+npx tsx player.ts delete pl123... si123...
+
+# 4) stream event - HTTP
+npx tsx event.ts state pl123... si123... "player entered dark forest zone"
+npx tsx event.ts ask pl123... si123... npc123... "what should i do next?"
+
+# 4b) stream event - WebSocket (random events from data/game_events.json)
+npx tsx event.ts stream pl123... si123...         # default 200ms interval
+npx tsx event.ts stream pl123... si123... 50      # 50ms interval (~17/s)
+```
+
+## Data files
+
+- `data/game_events.json` — 1000+ game state event strings (5–8 words, natural language with optional numbers). Used by `stream` mode to send random events.
+- `data/npc_interests.json` — 10 NPC preset profiles for `npc.ts create`, each containing:
+  - `name` (human-like display name)
+  - one `description` text blob (role + behavior + character arc in one field)
+  - exactly 5 validated interest phrases (5–8 words each)
+

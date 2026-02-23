@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Fantasy RPG",
+    "lore": "This world is a high fantasy realm where magic and steel coexist. The land is divided into kingdoms, each with ancient traditions and rivalries. Adventurers travel between settlements, dungeons, and wilderness zones. Combat is turn-based and tactical; positioning and timing matter. Characters may use swords, bows, shields, and elemental magic. Healing potions and rest restore health. Death sends the player to the last checkpoint. NPCs speak in character and stay in role unless explicitly broken. The tone is heroic but grounded; violence and loss are real but not gratuitous. The player drives the story through choices and exploration."
+  },
+  {
+    "name": "Tactical Combat",
+    "lore": "This simulation focuses on small-unit tactical combat. Each encounter is a discrete battle with clear objectives: eliminate enemies, capture zones, or defend positions. The player controls a squad; positioning, cover, and flanking determine outcomes. Movement and combat alternate in turns. Enemies have predictable behavior patterns but can be surprised or ambushed. Resource management matters: ammo, health, and stamina are limited. Victory requires planning over reflexes. NPCs are tactical advisors and combat instructors who react to player decisions and mistakes."
+  },
+  {
+    "name": "Survival Exploration",
+    "lore": "The player explores a vast wilderness with survival mechanics. Hunger, thirst, and temperature affect stamina and health. Resources are scarce; gathering requires time and risk. Weather and terrain change the difficulty of travel. Safe zones exist but are rare. The world is procedurally hostile; the player must adapt to survive. NPCs are scouts, guides, and traders who share knowledge about routes, dangers, and supplies. Death is permanent; the player must start a new run. The tone is gritty and survival-focused."
+  },
+  {
+    "name": "Dungeon Crawler",
+    "lore": "This is a dungeon-based roguelike where the player descends through levels of increasing difficulty. Each floor has rooms, traps, and enemies. Loot and equipment define progression; items carry between runs. Bosses guard key levels. The player must manage inventory, health, and risk. NPCs are vendors, blacksmiths, and lore keepers who appear in safe rooms. The tone is dark and unforgiving; death resets progress but not learned knowledge. Secrets and shortcuts reward exploration."
+  },
+  {
+    "name": "Social Intrigue",
+    "lore": "This world is a court of nobles, merchants, and spies. The player navigates social politics through dialogue, favors, and reputation. Combat is rare; influence and information are the main weapons. NPCs have agendas, secrets, and alliances. Choices in conversation affect standing with factions. The tone is scheming and subtle; the player must read between the lines."
+  }
+]
