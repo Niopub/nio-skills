@@ -45,7 +45,7 @@ Product: <NIO_PRODUCT>
 
 ## Simulations
 
-A simulation is your game world or app context.
+A simulation is your game world or app context. There are tier based limits to how many simulations you can create for your account.
 
 | Method | Path | Auth | Body |
 |--------|------|------|------|
@@ -57,9 +57,11 @@ A simulation is your game world or app context.
 
 Response shape: `{ "sim_id", "name", "lore", "creation_time" }`
 
+**Delete:** All NPCs in the simulation must be deleted before the simulation itself can be deleted.
+
 ## NPCs
 
-Characters inside a simulation with personality, description, and interests.
+Characters inside a simulation with personality, description, and interests. There are tier based limits to how many NPCs you can create per simulation for your account.
 
 | Method | Path | Auth | Body |
 |--------|------|------|------|

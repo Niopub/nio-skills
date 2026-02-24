@@ -39,7 +39,7 @@ function printLoreOptions(lores: SimulationLoreProfile[]): void {
 function usage(): string {
   return [
     "Usage:",
-    "  npx tsx simulation.ts create <name>",
+    "  npx tsx simulation.ts create <name> <lore_profile>",
     "  npx tsx simulation.ts list",
     "  npx tsx simulation.ts get <sim_id>",
     "  npx tsx simulation.ts lore <sim_id> [pick a value from pre-created profiles in simulation_lores.json]",
@@ -64,10 +64,21 @@ async function main(): Promise<void> {
   let payload: Record<string, unknown> | undefined;
 
   if (op === "create") {
-    if (!arg) throw new Error("create requires <name>\n\n" + usage());
+    if (!arg) throw new Error("create requires <name> <lore_profile>\n\n" + usage());
+    const loreName = process.argv.slice(4).join(" ").trim();
+    const lores = loadSimulationLores();
+    if (!loreName) {
+      printLoreOptions(lores);
+      throw new Error("create requires a lore profile name\n\n" + usage());
+    }
+    const profile = lores.find((p) => p.name === loreName);
+    if (!profile) {
+      printLoreOptions(lores);
+      throw new Error(`Unknown lore profile: ${loreName}`);
+    }
     url = `${baseUrl}/simulation`;
     method = "POST";
-    payload = { name: arg };
+    payload = { name: arg, lore: profile.lore };
   } else if (op === "list") {
     url = `${baseUrl}/simulation`;
   } else if (op === "get") {
